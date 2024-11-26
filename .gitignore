@@ -1,0 +1,68 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Cucumber report files
+cucumber-report.html
+#reports/
+#cucumber_report.json
+
+# Selenium files
+selenium-debug.log
+chromedriver.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.class
+*.swp
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Binaries
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+dist/
+
+# Miscellaneous
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+#Allure
+allure-report/

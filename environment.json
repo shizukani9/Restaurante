@@ -1,0 +1,30 @@
+{
+    "demo":{
+        "url":"https://magento2-demo.magebit.com/",
+        "apiToken": "psz0zk8oqeetwpgt5i0x91a1jprqfgch",
+        "userAdmin":{
+            "username": "magebit",
+            "password": "Demo123"
+        },
+        "user":{
+            "firstName": "Erika",
+            "lastName": "Mamani",
+            "email": "erika42@gmail.com",
+            "password": "Erika12!",
+            "confirmPassword": "Erika12!"
+        },
+        "website":{
+            "couponCode": "cupon123",
+            "incorrectCouponCode": "NoExiste"
+        },
+        "userShippingAddress":{
+            "firstName": "Erika",
+            "lastName": "Mamani",
+            "company": "Compania America",
+            "streetAddress": "Avenida Libertador entre Jordan",
+            "city": "Norte Combom",
+            "zipPostal": "12345",
+            "phoneNumber": "123456789"
+        }
+    }
+}
