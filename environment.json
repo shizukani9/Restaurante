@@ -1,0 +1,66 @@
+{
+    "demo":{
+        "url":"",
+        "routes": {
+            "login": "",
+            "company": "",
+            "dashboard": "",
+            "products": "",
+            "categories": "",
+            "suppliers": "",
+            "orders": "",
+            "tables": "",
+            "customers": "",
+            "reports": "",
+            "settings": "",
+            "employees": "",
+            "permissions": "",
+            "logs": "",
+            "logout": "",
+            "profile": ""
+        },
+        "apiToken": "",
+        "userAdmin":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userCashier":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userWaiter":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userMonitor":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userConfigurator":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userWarehouse":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        }
+    }
+}

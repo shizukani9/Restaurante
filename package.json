@@ -1,0 +1,19 @@
+{
+  "name": "restaurante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pen_browser.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "axios": "^1.7.9",
+    "chai": "^5.1.2",
+    "chromedriver": "^131.0.2",
+    "log4js": "^6.9.1",
+    "selenium-webdriver": "^4.27.0"
+  }
+}
