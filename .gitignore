@@ -66,3 +66,5 @@ docker-compose.yml
 
 #Allure
 allure-report/
+reports
+environment.json.txt

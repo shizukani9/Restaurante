@@ -1,30 +1,66 @@
 {
     "demo":{
-        "url":"https://magento2-demo.magebit.com/",
-        "apiToken": "psz0zk8oqeetwpgt5i0x91a1jprqfgch",
+        "url":"",
+        "routes": {
+            "login": "",
+            "company": "",
+            "dashboard": "",
+            "products": "",
+            "categories": "",
+            "suppliers": "",
+            "orders": "",
+            "tables": "",
+            "customers": "",
+            "reports": "",
+            "settings": "",
+            "employees": "",
+            "permissions": "",
+            "logs": "",
+            "logout": "",
+            "profile": ""
+        },
+        "apiToken": "",
         "userAdmin":{
-            "username": "magebit",
-            "password": "Demo123"
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
         },
-        "user":{
-            "firstName": "Erika",
-            "lastName": "Mamani",
-            "email": "erika42@gmail.com",
-            "password": "Erika12!",
-            "confirmPassword": "Erika12!"
+        "userCashier":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
         },
-        "website":{
-            "couponCode": "cupon123",
-            "incorrectCouponCode": "NoExiste"
+        "userWaiter":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
         },
-        "userShippingAddress":{
-            "firstName": "Erika",
-            "lastName": "Mamani",
-            "company": "Compania America",
-            "streetAddress": "Avenida Libertador entre Jordan",
-            "city": "Norte Combom",
-            "zipPostal": "12345",
-            "phoneNumber": "123456789"
+        "userMonitor":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userConfigurator":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
+        },
+        "userWarehouse":{
+            "name": "",
+            "username": "",
+            "password": "",
+            "rol": "",
+            "state": ""
         }
     }
 }
