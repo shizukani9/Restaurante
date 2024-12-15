@@ -19,7 +19,7 @@
             "logout": "",
             "profile": ""
         },
-        "apiToken": "",
+        "apiTokenAdmin": "",
         "userAdmin":{
             "name": "",
             "username": "",
@@ -27,6 +27,7 @@
             "rol": "",
             "state": ""
         },
+        "apiTokenCashier": "",
         "userCashier":{
             "name": "",
             "username": "",
@@ -34,6 +35,7 @@
             "rol": "",
             "state": ""
         },
+        "apiTokenWaiter": "",
         "userWaiter":{
             "name": "",
             "username": "",
@@ -41,6 +43,7 @@
             "rol": "",
             "state": ""
         },
+        "apiTokenMonitor": "",
         "userMonitor":{
             "name": "",
             "username": "",
@@ -48,6 +51,7 @@
             "rol": "",
             "state": ""
         },
+        "apiTokenConfigurator": "",
         "userConfigurator":{
             "name": "",
             "username": "",
@@ -55,6 +59,7 @@
             "rol": "",
             "state": ""
         },
+        "apiTokenWarehouse": "",
         "userWarehouse":{
             "name": "",
             "username": "",

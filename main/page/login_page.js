@@ -10,9 +10,9 @@ class LoginPage{
     }
 
     async waitForElement(selector) {
-        const element = await DriverFactory.myDriver.wait(until.elementLocated(selector), configuration.browser.timeout);
-        await DriverFactory.myDriver.wait(until.elementIsVisible(element), configuration.browser.timeout);
-        await DriverFactory.myDriver.wait(until.elementIsEnabled(element), configuration.browser.timeout);
+        const element = await DriverFactory.myDriver.wait(until.elementLocated(selector), configuration.browser.timeout_8_seconds);
+        await DriverFactory.myDriver.wait(until.elementIsVisible(element), configuration.browser.timeout_8_seconds);
+        await DriverFactory.myDriver.wait(until.elementIsEnabled(element), configuration.browser.timeout_8_seconds);
         return element;
     }
 
@@ -22,7 +22,6 @@ class LoginPage{
             await usernameInput.sendKeys(username);
         } catch (error) {
             console.error('Error al ingresar el nombre de usuario:', error);
-            throw error;
         }
     }
 
@@ -32,7 +31,6 @@ class LoginPage{
             await passwordInput.sendKeys(password);
         } catch (error) {
             console.error('Error al ingresar la contraseña:', error);
-            throw error;
         }
     }
 
